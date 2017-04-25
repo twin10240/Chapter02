@@ -4,7 +4,7 @@ public class GoodsApp {
 		goods.name = "nikkon";
 		goods.price = 200000;
 		goods.countSold = 10;
-		goods.countStock = 20;
+		goods.countStock = 30;
 		
 		System.out.println("이름 : " + goods.name + 
 				 		   ", 가격 : " + goods.price + 
