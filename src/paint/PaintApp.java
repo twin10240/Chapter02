@@ -9,15 +9,35 @@ public class PaintApp {
 		
 		Point point2 = new Point(100, 200);
 		
-		drawPoint(point1);
-		drawPoint(point2);
+//		drawPoint(point1);
+		draw(point1);
+//		drawPoint(point2);
+		draw(point2);
 		
 		point1.show(false);
 		point1.show(true);
+		
+		Point point3 = new ColorPoint(200, 100, "red");
+//		drawPoint(point3);
+		draw(point3);
+		
+//		drawShape(new Rect());
+//		drawShape(new Circle());
+		draw(new Rect());
+		draw(new Circle());
+		draw(new Triangle());
 	}
 	
-	public static void drawPoint(Point pt) {
-		pt.show();
+//	public static void drawPoint(Point pt) {
+//		pt.show();
+//	}
+//	
+//	public static void drawShape(Shape s) {
+//		s.draw();
+//	}
+	
+	public static void draw(Drawable d) {
+		d.draw();
 	}
 
 }

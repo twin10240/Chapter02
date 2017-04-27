@@ -5,4 +5,8 @@ public class Person {
 	protected int age;
 	int height;
 	public int weight;
+	
+	public Person() {
+		System.out.println("Person() 호출");
+	}
 }
