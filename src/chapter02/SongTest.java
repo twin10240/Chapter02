@@ -1,3 +1,4 @@
+package chapter02;
 public class SongTest {
 	public static void main(String[] args) {
 		Song song = new Song("아이유", "좋은날", "Real", 2010, 3, "이민수");
