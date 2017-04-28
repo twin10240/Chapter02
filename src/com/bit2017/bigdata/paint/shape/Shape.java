@@ -1,4 +1,6 @@
-package paint;
+package com.bit2017.bigdata.paint.shape;
+
+import com.bit2017.bigdata.paint.i.Drawable;
 
 public abstract class Shape implements Drawable{ // 추상클래스 new 선언이 불가능.
 	private String fillColor;

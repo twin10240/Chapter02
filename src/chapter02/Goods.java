@@ -1,4 +1,5 @@
 package chapter02;
+
 public class Goods {
 	static int cointOfGoods;
 	

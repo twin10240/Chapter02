@@ -1,4 +1,11 @@
-package paint;
+package com.bit2017.bigdata.paint.main;
+
+import com.bit2017.bigdata.paint.i.Drawable;
+import com.bit2017.bigdata.paint.point.ColorPoint;
+import com.bit2017.bigdata.paint.point.Point;
+import com.bit2017.bigdata.paint.shape.Circle;
+import com.bit2017.bigdata.paint.shape.Rect;
+import com.bit2017.bigdata.paint.shape.Triangle;
 
 public class PaintApp {
 

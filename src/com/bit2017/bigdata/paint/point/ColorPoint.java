@@ -1,4 +1,4 @@
-package paint;
+package com.bit2017.bigdata.paint.point;
 
 public class ColorPoint extends Point{
 	private String color;

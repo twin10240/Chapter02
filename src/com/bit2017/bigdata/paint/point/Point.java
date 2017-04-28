@@ -1,4 +1,6 @@
-package paint;
+package com.bit2017.bigdata.paint.point;
+
+import com.bit2017.bigdata.paint.i.Drawable;
 
 public class Point implements Drawable {
 	private int x;

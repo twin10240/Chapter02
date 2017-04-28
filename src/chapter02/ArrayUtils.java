@@ -1,4 +1,5 @@
 package chapter02;
+
 public class ArrayUtils {
 	public static double[] intToDouble(int[] source) {
 		if (source == null) {
